@@ -1,6 +1,6 @@
 <?php
 
-namespace Acquia\Lightning\Composer;
+namespace Hughestech\Lightning\Composer;
 
 use Composer\Json\JsonFile;
 use Composer\Script\Event;
@@ -14,7 +14,7 @@ final class AssetPackagist {
    * Reads the root package's composer.json.
    *
    * This will be the composer.json closest to the current working directory
-   * that contains a dependency on acquia/lightning.
+   * that contains a dependency on aughestech/lightning.
    *
    * @return JsonFile
    *   File wrapper around the root package's composer.json.
@@ -30,7 +30,7 @@ final class AssetPackagist {
       if ($file->exists()) {
         $info = $file->read();
 
-        if (isset($info['require']['acquia/lightning'])) {
+        if (isset($info['require']['hughestech/lightning'])) {
           return $file;
         }
       }
@@ -51,7 +51,7 @@ final class AssetPackagist {
   public static function execute(Event $event) {
     $io = $event->getIO();
 
-    // Search upwards for a composer.json which depends on acquia/lightning.
+    // Search upwards for a composer.json which depends on hughestech/lightning.
     $io->write('Searching for root package...');
 
     $file = static::getRootPackage();

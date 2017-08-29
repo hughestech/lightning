@@ -1,6 +1,6 @@
 <?php
 
-namespace Acquia\LightningExtension\Context;
+namespace Hughestech\LightningExtension\Context;
 
 use Behat\Mink\Exception\ExpectationException;
 use Drupal\Component\Serialization\Json;

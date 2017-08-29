@@ -1,6 +1,6 @@
 <?php
 
-namespace Acquia\LightningExtension\Context;
+namespace Hughestech\LightningExtension\Context;
 
 use Drupal\DrupalExtension\Context\DrupalSubContextBase;
 use Drupal\field\Entity\FieldConfig;

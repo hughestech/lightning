@@ -16,7 +16,7 @@ The preferred way to install Lightning is using our
 
 ```
 $ composer self-update
-$ composer create-project acquia/lightning-project MY_PROJECT
+$ composer create-project hughestech/lightning-project MY_PROJECT
 ```
 
 If you don't want to use Composer, you can install Lightning the traditional way
@@ -148,8 +148,8 @@ your environment, but generally you will not need to do this.
 
 [issue_queue]: https://www.drupal.org/project/issues/lightning "Lightning Issue Queue"
 [meta_release]: https://www.drupal.org/node/2670686 "Lightning Meta Releases Issue"
-[template]: https://github.com/acquia/lightning-project "Composer-based project template"
+[template]: https://github.com/hughestech/lightning-project "Composer-based project template"
 [d.o_semver]: https://www.drupal.org/node/1612910
-[lightning_composer_project]: https://github.com/acquia/lightning-project
+[lightning_composer_project]: https://github.com/hughestech/lightning-project
 [demo_videos]: http://lightning.acquia.com/blog/lightning-user-stories-demonstrations "Lightning user story demonstration videos"
-[sub-profile documentation]: https://github.com/acquia/lightning/wiki/Lightning-as-a-Base-Profile "Lightning sub-profile documentation"
+[sub-profile documentation]: https://github.com/hughestech/lightning/wiki/Lightning-as-a-Base-Profile "Lightning sub-profile documentation"

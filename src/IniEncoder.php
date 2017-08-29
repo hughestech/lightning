@@ -1,6 +1,6 @@
 <?php
 
-namespace Acquia\Lightning;
+namespace Hughestech\Lightning;
 
 /**
  * Contains methods for parsing and dumping data in the legacy info file format.

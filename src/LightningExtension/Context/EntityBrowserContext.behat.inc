@@ -1,6 +1,6 @@
 <?php
 
-namespace Acquia\LightningExtension\Context;
+namespace Hughestech\LightningExtension\Context;
 
 use Behat\Mink\Exception\ElementNotFoundException;
 use Drupal\Component\Utility\Html;

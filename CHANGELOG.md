@@ -451,7 +451,7 @@
 
 ## Release Candidate 1 (RC1)
 * You can finally create a Lightning-based project entirely with Composer!
-  See the [installer project page](https://github.com/acquia/lightning-project)
+  See the [installer project page](https://github.com/hughestech/lightning-project)
   for more information. (Issue #2693829)
 * It's now possible for Quick Edit to edit content blocks placed in a landing
   page using Panels IPE. (Issue #2692391)

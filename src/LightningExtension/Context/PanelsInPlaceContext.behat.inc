@@ -1,6 +1,6 @@
 <?php
 
-namespace Acquia\LightningExtension\Context;
+namespace Hughestech\LightningExtension\Context;
 
 use Behat\Mink\Driver\Selenium2Driver;
 use Drupal\DrupalExtension\Context\DrupalSubContextBase;
@@ -222,7 +222,7 @@ class PanelsInPlaceContext extends DrupalSubContextBase {
       ->elementExists('named', ['link', 'Revert to default'], $this->assertTray())
       ->click();
 
-    /** @var \Acquia\LightningExtension\Context\UtilityContext $utility */
+    /** @var \Hughestech\LightningExtension\Context\UtilityContext $utility */
     $utility = $this->getContext(UtilityContext::class);
     $utility->acceptAlerts([$this->minkContext, 'iWaitForAjaxToFinish']);
   }

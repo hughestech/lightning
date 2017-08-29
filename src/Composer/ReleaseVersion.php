@@ -1,8 +1,8 @@
 <?php
 
-namespace Acquia\Lightning\Composer;
+namespace Hughestech\Lightning\Composer;
 
-use Acquia\Lightning\IniEncoder;
+use Hughestech\Lightning\IniEncoder;
 use Composer\Script\Event;
 use Symfony\Component\Finder\Finder;
 use Symfony\Component\Yaml\Yaml;

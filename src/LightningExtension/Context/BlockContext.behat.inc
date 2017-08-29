@@ -1,6 +1,6 @@
 <?php
 
-namespace Acquia\LightningExtension\Context;
+namespace Hughestech\LightningExtension\Context;
 
 use Drupal\block\Entity\Block;
 use Drupal\DrupalExtension\Context\DrupalSubContextBase;

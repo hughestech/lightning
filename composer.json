@@ -1,5 +1,5 @@
 {
-    "name": "acquia/lightning",
+    "name": "hughestech/lightning",
     "description": "The best of Drupal, curated by Acquia",
     "type": "drupal-profile",
     "license": "GPL-2.0+",
@@ -55,10 +55,10 @@
             "@composer package"
         ],
         "drupal-scaffold": "DrupalComposer\\DrupalScaffold\\Plugin::scaffold",
-        "package": "Acquia\\Lightning\\Composer\\Package::execute",
-        "release-version": "Acquia\\Lightning\\Composer\\ReleaseVersion::execute",
-        "verify-patched-constraints": "Acquia\\Lightning\\Composer\\PatchedConstraint::execute",
-        "enable-asset-packagist": "Acquia\\Lightning\\Composer\\AssetPackagist::execute"
+        "package": "Hughestech\\Lightning\\Composer\\Package::execute",
+        "release-version": "Hughestech\\Lightning\\Composer\\ReleaseVersion::execute",
+        "verify-patched-constraints": "Hughestech\\Lightning\\Composer\\PatchedConstraint::execute",
+        "enable-asset-packagist": "Hughestech\\Lightning\\Composer\\AssetPackagist::execute"
     },
     "extra": {
         "installer-types": [
@@ -173,8 +173,8 @@
     },
     "autoload": {
         "psr-4": {
-            "Acquia\\Lightning\\": "src",
-            "Acquia\\LightningExtension\\": "src/LightningExtension"
+            "Hughestech\\Lightning\\": "src",
+            "Hughestech\\LightningExtension\\": "src/LightningExtension"
         }
     }
 }

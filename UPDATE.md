@@ -17,7 +17,7 @@ the "Manual update steps" section of this file.
 ## Updating Lightning
 
 ### Composer
-If you've installed Lightning using our [Composer-based project template](https://github.com/acquia/lightning-project), all you need to do is:
+If you've installed Lightning using our [Composer-based project template](https://github.com/hughestech/lightning-project), all you need to do is:
 
 * ```cd /path/to/YOUR_PROJECT```
 * ```composer update```
@@ -373,4 +373,4 @@ There are no manual update steps for this version.
   ```authenticated``` user roles.
 * Install the Lightning Workflow module.
 
-[sub-profile documentation]: https://github.com/acquia/lightning/wiki/Lightning-as-a-Base-Profile "Lightning sub-profile documentation"
+[sub-profile documentation]: https://github.com/hughestech/lightning/wiki/Lightning-as-a-Base-Profile "Lightning sub-profile documentation"

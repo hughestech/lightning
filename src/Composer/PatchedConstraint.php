@@ -1,6 +1,6 @@
 <?php
 
-namespace Acquia\Lightning\Composer;
+namespace Hughestech\Lightning\Composer;
 
 use Composer\Package\Link;
 use Composer\Package\RootPackageInterface;

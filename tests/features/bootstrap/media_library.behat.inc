@@ -5,8 +5,8 @@
  * Contains \MediaLibrarySubContext.
  */
 
-use Acquia\LightningExtension\Context\CkEditorContext;
-use Acquia\LightningExtension\Context\EntityBrowserContext;
+use Hughestech\LightningExtension\Context\CkEditorContext;
+use Hughestech\LightningExtension\Context\EntityBrowserContext;
 use Drupal\DrupalExtension\Context\DrupalSubContextBase;
 
 /**
