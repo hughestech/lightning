@@ -1,6 +1,6 @@
 {
     "name": "hughestech/lightning",
-    "description": "The best of Drupal, curated by Acquia",
+    "description": "The best of Drupal",
     "type": "drupal-profile",
     "license": "GPL-2.0+",
     "minimum-stability": "dev",
@@ -66,15 +66,15 @@
             "npm-asset"
         ],
         "installer-paths": {
-            "docroot/core": [
+            "html/core": [
                 "type:drupal-core"
             ],
-            "docroot/libraries/{$name}": [
+            "html/libraries/{$name}": [
                 "type:drupal-library",
                 "type:bower-asset",
                 "type:npm-asset"
             ],
-            "docroot/profiles/lightning/modules/contrib/{$name}": [
+            "html/profiles/lightning/modules/contrib/{$name}": [
                 "type:drupal-module"
             ]
         },
